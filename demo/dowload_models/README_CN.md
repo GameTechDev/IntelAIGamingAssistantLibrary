@@ -27,10 +27,10 @@ pip install modelscope
 
 ## 用法
 
-在仓库根目录执行：
+在命令行里执行：
 
 ```powershell
-python .\tools\download_modelscope_models.py
+python download_modelscope_models.py
 ```
 
 不传 `--splitter` 时，会交互选择 `zh` 或 `en` 分词模型。
@@ -38,14 +38,14 @@ python .\tools\download_modelscope_models.py
 可直接指定分词模型：
 
 ```powershell
-python .\tools\download_modelscope_models.py --splitter zh
-python .\tools\download_modelscope_models.py --splitter en
+python download_modelscope_models.py --splitter zh
+python download_modelscope_models.py --splitter en
 ```
 
-如果脚本不是在仓库根目录运行，可指定项目根目录：
+可指定游戏助手服务目录：
 
 ```powershell
-python .\tools\download_modelscope_models.py --root "C:\path\to\IntelAIGamingAssistantLibrary" --splitter zh
+python download_modelscope_models.py --root "C:\path\to\GameAssistantToolServer" --splitter zh
 ```
 
 ## 注意事项

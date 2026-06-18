@@ -27,10 +27,10 @@ pip install modelscope
 
 ## Usage
 
-Run from the repository root:
+Run in your command line:
 
 ```powershell
-python .\tools\download_modelscope_models.py
+python download_modelscope_models.py
 ```
 
 If `--splitter` is not provided, the script will prompt you to choose `zh` or `en`.
@@ -38,14 +38,14 @@ If `--splitter` is not provided, the script will prompt you to choose `zh` or `e
 Specify the splitter directly:
 
 ```powershell
-python .\tools\download_modelscope_models.py --splitter zh
-python .\tools\download_modelscope_models.py --splitter en
+python download_modelscope_models.py --splitter zh
+python download_modelscope_models.py --splitter en
 ```
 
-If you run it outside the repo root, pass `--root`:
+You can specify the GameAssistantToolServer directory with `--root`:
 
 ```powershell
-python .\tools\download_modelscope_models.py --root "C:\path\to\IntelAIGamingAssistantLibrary" --splitter zh
+python download_modelscope_models.py --root "C:\path\to\GameAssistantToolServer" --splitter zh
 ```
 
 ## Notes
