@@ -2,6 +2,8 @@ English | [简体中文](./README_CN.md)
 
 # Model Download Script Guide
 
+> This script is for demonstration purposes only. It is for personal use only and must not be used for commercial purposes.
+
 ## What it does
 
 Downloads the following models from ModelScope, then moves and renames them under `models\`:

@@ -2,6 +2,8 @@ English | [简体中文](./README.md)
 
 # User Guide
 
+> This tool is for demonstration purposes only. It is for personal use only and must not be used for commercial purposes.
+
 Welcome to the [GameAssistantTool](https://github.com/GameTechDev/IntelAIGamingAssistantLibrary/tree/main/demo/GameAssistantTool).
 
 GameAssistantTool is a desktop tool for game scene capture/recognition and strategy Q&A. It supports both **GUI** and **CLI** usage.

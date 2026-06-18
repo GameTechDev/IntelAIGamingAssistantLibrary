@@ -2,6 +2,8 @@
 
 # 游戏助手路书使用说明
 
+> 此工具仅作演示用途，仅限个人使用，请勿商用。
+
 欢迎使用[游戏助手路书工具](https://github.com/GameTechDev/IntelAIGamingAssistantLibrary/tree/main/demo/game-assistant-walkthrough)。
 
 工具支持两种使用方式：

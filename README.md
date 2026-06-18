@@ -46,7 +46,7 @@ For the splitter model, you can download the language-specific package from the 
 
 For MMR, the default configuration loads from `models\mmr\gme` (configured by `config\mmr.json`, field `mmr.gme.model_path`). You can download the model from [Alibaba-NLP on Hugging Face](https://huggingface.co/Alibaba-NLP/gme-Qwen2-VL-7B-Instruct) and convert the model using [Optimum-Intel](https://github.com/huggingface/optimum-intel).
 
-In addition, we provide scripts and instructions under `demo\dowload_models\` to download and arrange models from ModelScope for local personal evaluation and validation. These downloaded models are not part of the Game Assistant service release itself, and their use is subject to the applicable model licenses. At present, they are for personal use only and may not be used for commercial purposes.
+In addition, we provide scripts and instructions under [`demo/dowload_models`](./demo/dowload_models) to download and arrange models from ModelScope for local personal evaluation and validation. These downloaded models are not part of the Game Assistant service release itself, and their use is subject to the applicable model licenses. At present, they are for personal use only and may not be used for commercial purposes.
 
 ### 2. Run the Server
 
@@ -82,7 +82,6 @@ Full API documentation is available in the `docs\` folder. Refer to the followin
 
 - **Interface Reference** — HTTP API endpoints for all features
 - **Configuration Guide** — Detailed explanation of all config fields
-- **Caller Integration Guide** — How to integrate with the server as a client
 
 ## License
 
@@ -92,6 +91,6 @@ See [third-party-programs.txt](./third-party-programs.txt) for open source compo
 
 ## Security
 
-Please report security vulnerabilities following Intel's guidelines. See [SECURITY.md](SECURITY.md) for details.
+Please report security vulnerabilities following Intel's guidelines. See [SECURITY.md](./SECURITY.md) for details.
 
 ---

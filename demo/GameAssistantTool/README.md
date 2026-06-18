@@ -2,6 +2,8 @@
 
 # 使用说明
 
+> 此工具仅作演示用途，仅限个人使用，请勿商用。
+
 欢迎使用[游戏助手标注工具](https://github.com/GameTechDev/IntelAIGamingAssistantLibrary/tree/main/demo/GameAssistantTool)。
 
 `游戏助手标注工具`是用于游戏场景采集识别与攻略问答的桌面工具，支持 **GUI** 和 **CLI** 两种使用方式。
