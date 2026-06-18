@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Conda / pip
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Release packages
+*.7z
+*.zip
+
+# Models and caches (large binary, not committed)
+models/
+caches/
+saves/
+
+# IDE
+.vscode/
+.idea/
+
+
