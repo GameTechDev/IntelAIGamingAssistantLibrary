@@ -1,0 +1,4 @@
+pillow
+keyboard
+requests
+beautifulsoup4

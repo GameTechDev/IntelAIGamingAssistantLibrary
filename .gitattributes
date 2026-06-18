@@ -1,0 +1,10 @@
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.7z filter=lfs diff=lfs merge=lfs -text
+
+# Line endings: shell scripts must stay LF so they run on Linux even when
+# core.autocrlf is enabled on a Windows checkout. Keep batch files CRLF.
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
