@@ -15,8 +15,8 @@ except Exception:
 
 COMMON_MODELS = {
     "DeviLeo/Qwen3-4B-int4-ov": ("models", "llm"),
-    "DeviLeo/bge-m3-int4-sym-ov": ("models", "embedding"),
-    "DeviLeo/bge-reranker-v2-m3-int4-sym-ov": ("models", "reranker"),
+    "DeviLeo/bge-m3-int4-sym-ov": ("models", "emb"),
+    "DeviLeo/bge-reranker-v2-m3-int4-sym-ov": ("models", "rerank"),
     "DeviLeo/gme-Qwen2-VL-2B-Instruct-int4-sym-ov": ("models", "mmr", "gme"),
 }
 
