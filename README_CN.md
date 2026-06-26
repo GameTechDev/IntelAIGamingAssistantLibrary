@@ -28,6 +28,12 @@
 
 ## 快速开始
 
+### 0. 下载游戏助手服务
+
+从[Releases](https://github.com/GameTechDev/IntelAIGamingAssistantLibrary/releases)页面下载最新的`GameAssistantToolServer.7z`。
+
+下载完成后，解压`GameAssistantToolServer.7z`。
+
 ### 1. 模型准备
 
 模型文件需放置在可执行文件同目录下的 `models\` 文件夹中：
@@ -52,7 +58,7 @@ MMR 默认从 `models\mmr\gme` 加载（由 `config\mmr.json` 中的 `mmr.gme.mo
 
 ### 2. 运行
 
-解压`GameAssistantToolServer.7z`，双击目录中的`GameAssistantToolServer.exe`即可启动服务。
+双击`GameAssistantToolServer`目录中的`GameAssistantToolServer.exe`即可启动服务。
 
 服务默认启动于 `127.0.0.1:9190`。如需修改监听地址或端口，请编辑 `config\gameassistanttoolserver.json`。
 

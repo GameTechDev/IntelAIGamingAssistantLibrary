@@ -28,6 +28,12 @@ The server exposes a local HTTP API (default port `9190`) for client integration
 
 ## Getting Started
 
+### 0. Download GameAssistantToolServer
+
+Download the newest `GameAssistantToolServer.7z` package from the [Releases](https://github.com/GameTechDev/IntelAIGamingAssistantLibrary/releases) page.
+
+Once the download is complete, extract the archive `GameAssistantToolServer.7z`.
+
 ### 1. Download Models
 
 The following model directories must be placed under the `models\` folder alongside the executable:
@@ -50,7 +56,7 @@ In addition, we provide scripts and instructions under [`demo/dowload_models`](.
 
 ### 2. Run the Server
 
-Extract `GameAssistantToolServer.7z`, then double-click `GameAssistantToolServer.exe` in the extracted folder to start the service.
+Double-click `GameAssistantToolServer.exe` in `GameAssistantToolServer` folder to start the service.
 
 The server starts on `127.0.0.1:9190` by default. See `config\gameassistanttoolserver.json` to change the host or port.
 
