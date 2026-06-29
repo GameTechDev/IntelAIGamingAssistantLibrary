@@ -34,6 +34,12 @@ Download the newest `GameAssistantToolServer.7z` package from the [Releases](htt
 
 Once the download is complete, extract the archive `GameAssistantToolServer.7z`.
 
+> **Note:** We recommend extracting the GameAssistantToolServer to the root directory or a directory with a short name, such as `D:\` or `D:\apps\`.
+>
+> This is because the GameAssistantToolServer names some files using MD5 or SHA256 hashes when storing them. If the full path of a file exceeds Windows' 260-character limit, it will result in a file read failure.
+>
+> You can also specify the directory where data should be saved by modifying the `saves` setting in `config\gameassistanttoolserver.json`.
+
 ### 1. Download Models
 
 The following model directories must be placed under the `models\` folder alongside the executable:
